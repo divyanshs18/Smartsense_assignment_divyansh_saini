@@ -1,1 +1,1 @@
-=
+the folder cointains python code for AI Powered email management system
