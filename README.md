@@ -15,7 +15,7 @@ Evaluation
 Automated Responses
 
 Project Overview
-This project implements a machine learning-based system that classifies incoming emails and responds automatically where appropriate. The project uses natural language processing (NLP) techniques, and the emails are classified into three categories:
+This project implements a machine learning-based system that classifies incoming emails and responds automatically . The project uses natural language processing (NLP) techniques, and the emails are classified into three categories:
 
 Student Inquiries: Queries related to courses, schedules, and general information.
 Research Collaboration: Emails related to academic collaboration, research partnerships, and shared facilities.
@@ -23,7 +23,7 @@ Corporate Inquiries: Requests from companies regarding internships, placements, 
 The system includes two components:
 
 Email Classification: Classifies emails based on their content using a simple neural network.
-Automated Response System: Generates automated responses based on the content of the email, or escalates it to a human if needed.
+Automated Response System: Generates automated responses based on the content of the email, or escalates it to HOD if needed.
 Features
 Automatic email classification into predefined categories.
 Pretrained and custom models for classification.
@@ -35,7 +35,7 @@ Project Structure
 Key Files
 email_management.py: This contains the complete implementation of the email classifier and automated response system.
 requirements.txt: This file lists the Python dependencies required to run the project.
-Dockerfile: This file is provided to containerize the application and make it easily deployable.
+
 How It Works
 The system uses TF-IDF (Term Frequency-Inverse Document Frequency) vectorization to convert email text into numerical representations, followed by a neural network that classifies the email into one of the three categories.
 
